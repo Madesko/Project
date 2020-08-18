@@ -1,0 +1,21 @@
+{
+    "name": "alexv/school619",
+    "description": "school 619 web project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexandr Vatutin",
+            "email": "dr.vatutin.pro@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    "nikic/fast-route": "^2.0@dev"
+    },
+    "autoload": {
+      "psr-4": {
+        "Alexandr\\Vatutin\\School619\\": "src/"
+      }
+    }
+}
